@@ -1,7 +1,8 @@
 # Python-Network-Port-Scanner
 Scan remote hosts for open ports from 1-1024. Quickly identify network vulnerabilities. Uses Python's socket module.
 
-import asyncio
+
+'''import asyncio
 
 async def scan_port(host, port, results):
     try:
@@ -33,5 +34,5 @@ async def main():
 
     print(f"Scanning completed in {end_time - start_time:.2f} seconds.")
 
-if __name__ == "__main__":
+if __name__ == "__main__":'''
     asyncio.run(main())
